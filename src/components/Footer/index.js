@@ -1,0 +1,19 @@
+import React from 'react';
+import { HashRouter, Route, Switch } from "react-router-dom";
+import './index.less';
+
+export default class Footer extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            msg: 'footer'
+        };
+    }
+
+    render() {
+        return <div className="footer">
+            版权所有：慕课网&河畔一角（推荐使用谷歌浏览器，可以获得更佳操作页面体验） 技术支持：河畔一角
+        </div>
+
+    }
+}

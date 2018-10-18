@@ -1,0 +1,24 @@
+body {
+  background: #f1f3f5;
+  font-family: "Helvetica Neue For Number", "PingFang SC Light", "Heiti SC", "San Francisco", "Helvetica", Arial, sans-serif;
+}
+.container {
+    display: flex;
+    .side-nav {
+        width: 15%;
+        height: calc(100vh);
+        min-width: 180px;
+        background: #001529;        
+        color: #fff;
+    }
+
+    .main {
+        flex: 1;
+        height: calc(100vh);
+        overflow-y: auto;
+        .content {
+            position: relative;
+            padding: 20px;
+        }
+    }
+}
