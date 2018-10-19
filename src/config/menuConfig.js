@@ -12,6 +12,18 @@ export default [
         }, {
             title: '弹框',
             key: '/ui/modals'
+        }, {
+            title: 'Loadings',
+            key: '/ui/loadings'
+        }, {
+            title: 'Notifications',
+            key: '/ui/notifications'
+        }, {
+            title: 'Messages',
+            key: '/ui/messages'
+        }, {
+            title: 'Tabs',
+            key: '/ui/tabs'
         }]
     },
     {
