@@ -4,7 +4,7 @@ import './index.less';
 
 const TabPane = Tabs.TabPane;
 
-export default class Buttons extends React.Component {
+export default class _Tabs extends React.Component {
 	constructor(props) {
 		super(props)
 	}

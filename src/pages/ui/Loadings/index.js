@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Spin, Switch, Icon, Alert} from "antd";
 import './index.less';
 
-export default class Buttons extends React.Component {
+export default class Loadings extends React.Component {
 	state = {
 		loading: false
 	}
@@ -11,7 +11,6 @@ export default class Buttons extends React.Component {
 	}
 
     render() {
-    	const size = this.state.size;
 
         return (
             <div className="loadings-wrap">

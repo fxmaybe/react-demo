@@ -14,7 +14,7 @@ export default class Admin extends React.Component {
 
     render() {
         return <Row className="container">
-            <Col span="4" className="side-nav"><SideNav /></Col>
+            <Col span="4" className="side"><SideNav /></Col>
             <Col span="20" className="main">
                 <Header></Header>
                 <Row className="content">

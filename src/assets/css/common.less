@@ -1,10 +1,55 @@
 body {
+  height: 100%;
   background: #f1f3f5;
   font-family: "Helvetica Neue For Number", "PingFang SC Light", "Heiti SC", "San Francisco", "Helvetica", Arial, sans-serif;
 }
+:-webkit-autofill {
+    -webkit-text-fill-color: #000 !important;
+    text-fill-color: #000 !important;
+    -webkit-transition: background-color 60000s ease-in-out 0s;
+    transition: background-color 60000s ease-in-out 0s;
+}
+.clearfix:after, .clearfix:before{
+	content:'';
+	display:table
+}
+.clearfix:after{
+	content: "\20";
+	clear: both;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+.fl{
+	float: left;
+	display: inline;
+}
+.fr{
+	float: right;
+	display: inline;
+}
+.flexbox{
+	display: -webkit-box;
+	display: -ms-flexbox;
+ 	-ms-box-orient: horizontal;
+	/*IE10中显不一行，类似于flex-direction:row功能*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+.flex-1{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	-moz-flex:1;
+	-ms-flex:1;
+	flex:1;
+	display: block;
+}
 .container {
     display: flex;
-    .side-nav {
+    .side {
         width: 15%;
         height: calc(100vh);
         min-width: 180px;

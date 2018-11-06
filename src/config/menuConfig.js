@@ -1,11 +1,13 @@
 export default [
     {
         title: '首页',
-        key: '/home'
+        key: '/home',
+        icon: 'appstore',
     },
     {
         title: 'UI',
-        key: '/admin/ui',
+        key: '/ui',
+        icon: 'appstore',
          children: [{
             title: '按钮',
             key: '/ui/buttons'
@@ -27,8 +29,21 @@ export default [
         }]
     },
     {
+        title: '表单',
+        key: '/form',
+        icon: 'appstore',
+        children: [{
+            title: '登录',
+            key: '/form/login'
+        }, {
+            title: '注册',
+            key: '/form/register'
+        }]
+    },
+    {
         title: '菜单1',
         key: '/m1',
+        icon: 'appstore',
         children: [
             {
                 title: '菜单11',
